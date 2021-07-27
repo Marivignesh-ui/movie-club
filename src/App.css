@@ -1,38 +1,56 @@
-.App {
-  text-align: center;
+nav,footer{
+  background-color: #0F172A;
+  color: #fffaf0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar{
+  padding: 0px !important;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.logo{
+  height: 5.5rem;
+  width:18rem;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.vr{
+  border-left: 1px solid floralwhite;
+  height:2.3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
-
-.App-link {
-  color: #61dafb;
+.primecolor{
+  background-color: #EAB308;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.seccolor{
+  color:#EAB308;
+}
+footer a{
+  color: #fffaf0;
+}
+.card{
+  width:15rem;
+  background-color: #A2DCEE;
+  margin: 2% 1% 1% 2%;
+}
+.card-img-top{
+  height: 15rem;
+}
+.rating{
+  display: inline-block;
+  text-align: right;
+  margin-right: 0px;
+  margin-left: 9rem;
+  background-color: #0F172A;
+  padding: 0.5rem 0.7rem;
+  border-radius: 10px;
+  color:floralwhite;
+}
+.jumbotron{
+  background-color: #DBEAFE !important;
+}
+.iframediv{
+  display: inline-block;
+  width:300px;
+  height:200px;
+}
+iframe{
+  width:100%;
+  height: 100%;
 }
