@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import {Nav,Navbar,NavbarBrand,NavbarToggler,Collapse,NavItem,Button,NavLink,Modal,ModalBody,ModalHeader,Form,FormGroup,Label,Input} from 'reactstrap';
 
 class Header extends Component{
@@ -40,10 +41,10 @@ class Header extends Component{
                         <Collapse isOpen={this.state.isNavOpen} navbar>
                             <Nav navbar>
                                 <NavItem>
-                                    <NavLink className="nav-link" active>Home</NavLink>
+                                    <NavLink className="nav-link" active><Link to='/home'>Home</Link></NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink className="nav-link">Movies</NavLink>
+                                    <NavLink className="nav-link"><Link to='/movies'>Movies</Link></NavLink>
                                 </NavItem>
                                 <NavItem>
                                     <NavLink className="nav-link">Rate&Review</NavLink>
